@@ -13,7 +13,8 @@ function isValidNumber(num) {
 }
 
 function isValidBoolean(char) {
-  return !(char !== 'y' && char !== 'n');
+  let userInput = String(char).toLowerCase();
+  return (userInput === "y" || userInput === "n");
 }
 
 function getInput(strPrompt, strInvalidPrompt, conditional) {
@@ -52,7 +53,7 @@ function mortgageCalculator() {
 
   let response = getInput('Would you like to make another calculation? (y/n)', 'Please enter (y/n).', isValidBoolean);
 
-  return response === 'y';
+  return String(response).toLowerCase() === 'y';
 }
 
 while (mortgageCalculator()) {
