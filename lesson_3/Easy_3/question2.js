@@ -1,0 +1,1 @@
+console.log([1, 2, 3] + [4, 5]); // logs 1, 2, 34, 5 to the console
