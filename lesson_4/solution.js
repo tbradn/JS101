@@ -58,9 +58,9 @@ console.log(sumEvenNumberRow(4)); // 68
 // - Get last integer of that row 
 // - Add 2 to the integer
 
-// console.log(createRow(2, 1)); // [2]
-// console.log(createRow(4, 2)); // [4, 6]
-// console.log(createRow(8, 3)); // [8, 10, 12]
+console.log(createRow(2, 1)); // [2]
+console.log(createRow(4, 2)); // [4, 6]
+console.log(createRow(8, 3)); // [8, 10, 12]
 
 // Algorithm:
 // 	1. Create an empty 'row' array to contain the integers
